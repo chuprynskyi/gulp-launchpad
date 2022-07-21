@@ -1,0 +1,53 @@
+@import 'vars';
+@import 'vendor/reset';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  background: url(../images/bg-blur.gif);
+  background-size: 100%;
+  background-color: #000000;
+
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: $white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0 auto;
+
+  font-family: 'Barlow';
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 4.8rem;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Blocks */
+
+@import 'blocks/page';
+@import 'blocks/loadPage';
+@import 'blocks/header';
+@import 'blocks/nav';
+@import 'blocks/btn';
+@import 'blocks/main';
+@import 'blocks/container';
+@import 'blocks/hero';
+@import 'blocks/glitch';
+@import 'blocks/scroll';
+@import 'blocks/slider';
+@import 'blocks/footer';

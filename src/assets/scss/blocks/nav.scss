@@ -1,0 +1,23 @@
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  display: inline-block;
+}
+
+.nav__link {
+  padding: 0 3.6rem;
+
+  font-family: 'Exo';
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: $white;
+  text-decoration: none;
+
+  transition: color 0.2s linear;
+
+  &:hover {
+    color: $primary;
+  }
+}

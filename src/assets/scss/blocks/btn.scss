@@ -1,0 +1,27 @@
+.btn {
+  width: 184px;
+  height: 56px;
+  display: inline-block;
+  text-align: center;
+
+  border: none;
+  cursor: pointer;
+
+  font-family: 'Public Sans';
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  &--yellow {
+    color: $black;
+    // filter: drop-shadowdrop-shadow(9px 5px 10px rgba($primary, 0.2));
+    background: url(../images/button.svg) center no-repeat;
+  }
+
+  &--transparent {
+    color: rgba($white, 60%);
+    background: url(../images/button-ghost.svg) center no-repeat;
+  }
+}
